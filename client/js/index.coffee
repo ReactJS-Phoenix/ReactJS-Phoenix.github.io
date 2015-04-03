@@ -28,7 +28,7 @@ IndexClass = React.createClass
 
             p
               className: 'header'
-              'ReactJS Camp v0 : RIP Shaler Edition'
+              'ReactJS Camp v0'
 
           div className: 'row',
 
