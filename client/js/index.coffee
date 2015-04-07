@@ -21,14 +21,26 @@ IndexClass = React.createClass
       div className: 'indent',
 
         div className: 'container',
-          div className: 'row',
-
-
-            # div className: 'column',
+          div 
+            className: 'row'
+            style:
+              width: '100%'
 
             p
               className: 'header'
+              style:
+                marginLeft: '30%'
               'ReactJS Camp v0'
+
+          div 
+            className: 'row'
+            style:
+              width: '100%'
+
+            img
+              src: './phxreactLogo.png'
+              style:
+                marginLeft: '30%'
 
           div className: 'row',
 
@@ -103,13 +115,25 @@ IndexClass = React.createClass
                 div
                   className: 'row',
 
+                  img
+                    src: './olu.png'
+                    style:
+                      display: 'inline-block'
+                      # verticalAlign: 'top'
+                      # marginLeft: '1em'
+                      width: 'auto'
+                      height: 'auto'
+                      maxHeight: 200
+                      maxWidth: 200
+
 
                   div 
                     className: 'container'
                     style:
                       verticalAlign: 'top'
-                      width: 300
+                      width: 250
                       display: 'inline-block'
+                      marginLeft: '1em'
 
                     div className: 'row',
 
@@ -123,16 +147,7 @@ IndexClass = React.createClass
                         className: 'point'
                         'Free lance web and mobile developer, and founder of Cinch, Olu Ayandosu is one of the leading independent programmers in Phoenix.'
 
-                  img
-                    src: './olu.png'
-                    style:
-                      display: 'inline-block'
-                      # verticalAlign: 'top'
-                      marginLeft: '1em'
-                      width: 'auto'
-                      height: 'auto'
-                      maxHeight: 200
-                      maxWidth: 200
+
 
 
             div className: 'column',
@@ -153,6 +168,17 @@ IndexClass = React.createClass
                     style:
                       border: 0
 
+          div className: 'row',
+
+            p
+              className: 'point b',
+              'Contact'
+
+          div className: 'row',
+
+            p
+              className: 'point'
+              'cstearns@localmotors.com'
 
       div className: 'spacer'
 
